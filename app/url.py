@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path,include
 from app import views
-from rest_framework.routers import DefaultRouter
+# from rest_framework.routers import DefaultRouter
 from .views import RecommendedLearningPathsView
 
 
